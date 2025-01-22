@@ -1,0 +1,308 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.background {
+    width: 100%;
+    height: 90vh;
+    background-color:  hsl(217, 48%, 68%);
+    position: relative;
+    padding-top: 5%;
+}
+.parent {
+    height: 80vh;
+    width: 65%;
+    background-color: #fff;
+    margin: 0 auto;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 0px 4px 16px 0px #00000026;
+}
+.nav-l {
+    width: 75%;
+    height: 10vh;
+    margin: 0 auto;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav img {
+    width: 10%;
+    height: 10vh;
+}
+.nav-l a {
+    text-decoration: none;
+    color: #000;
+    align-content: center;
+}
+.intro {
+    width: 80%;
+    height: 60vh;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.welcome-msg {
+    width: 45%;
+    height: 20vh;
+}
+.welcome-msg h6 {
+    font-size: 40px;
+    color: #000;
+}
+.welcome-msg p {
+    font-size: 14px;
+    color: #000;
+}
+.course {
+    width: 45%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.button-1, .button-2, .button-3, .button-4 {
+    width: 99%;
+    height: 7vh;
+    background-color:  hsl(217, 48%, 68%);
+    border-radius: 10px;
+    display: flex;
+    gap: 30px;
+    cursor: pointer;
+}
+.button-1:hover, .button-2:hover, .button-3:hover, .button-4:hover {
+    background: #000;
+    
+}
+.button-1 img, .button-2 img, .button-3 img, .button-4 img {
+    width: 15%;
+    height: 6.5vh;
+    border-radius: 10px;
+}
+.button-1 p, .button-2 p, .button-3 p, .button-4 p {
+    align-self: center;
+    color: #fff;
+    
+}
+.background-1 {
+    width: 100%;
+    height: 90vh;
+    background-color: hsl(217, 48%, 68%);
+    position: relative;
+    padding-top: 5%;
+}
+.parent-1 {
+    height: 80vh;
+    width: 65%;
+    background-color: #fff;
+    margin: 0 auto;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 0px 4px 16px 0px #00000026;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.question-1 {
+    width: 80%;
+    height: 50vh;
+    margin: 0 auto;
+    position: relative;
+    padding-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.que-1 {
+    width: 45%;
+    height: 30vh;
+}
+.que-1 h6 {
+    font-size: 25px;
+    color: #000;
+    padding-top: 10px;
+}
+.que-1 p {
+    font-size: 14px;
+    color: #000;
+}
+.option-1 {
+    width: 45%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.q1-a, .q1-b, .q1-c, .q1-d {
+    width: 99%;
+    height: 7vh;
+    background-color:  hsl(217, 48%, 68%);
+    border-radius: 10px;
+    display: flex;
+    gap: 30px;
+    cursor: pointer;
+}
+.q1-a img, .q1-b img, .q1-c img, .q1-d img {
+    width: 15%;
+    height: 7vh;
+    border-radius: 10px;
+}
+.q1-a p, .q1-b p, .q1-c p, .q1-d p {
+    align-self: center;
+    color: #fff;
+    
+}
+.q1-nxt-btn {
+    width: 40%;
+    display: block;
+    height: 8vh;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color:  hsl(217, 48%, 68%);
+}
+.q1-nxt-btn a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+}
+.q1-nxt-btn:hover {
+    background: #000;
+}
+.bg {
+    width: 100%;
+    height: 90vh;
+    background-color: hsl(217, 48%, 68%);
+    position: relative;
+    padding-top: 5%;
+}
+.pt {
+    height: 80vh;
+    width: 65%;
+    background-color: #fff;
+    margin: 0 auto;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 0px 4px 16px 0px #00000026;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.question {
+    width: 80%;
+    height: 50vh;
+    margin: 0 auto;
+    position: relative;
+    padding-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.que {
+    width: 45%;
+    height: 30vh;
+}
+.que h6 {
+    font-size: 25px;
+    color: #000;
+    padding-top: 10px;
+}
+.que p {
+    font-size: 14px;
+    color: #000;
+}
+.option {
+    width: 45%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.q-a, .q-b, .q-c, .q-d {
+    width: 99%;
+    height: 7vh;
+    background-color:  hsl(217, 48%, 68%);
+    border-radius: 10px;
+    display: flex;
+    gap: 30px;
+    cursor: pointer;
+}
+.q-a img, .q-b img, .q-c img, .q-d img {
+    width: 15%;
+    height: 7vh;
+    border-radius: 10px;
+}
+.q-a p, .q-b p, .q-c p, .q-d p {
+    align-self: center;
+    color: #fff;
+    
+}
+.nav {
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+    height: 8vh;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+.q-nxt-btn, .q-prv-btn {
+    width: 40%;
+    display: block;
+    height: 8vh;
+    border-radius: 10px;
+    background-color:  hsl(217, 48%, 68%);
+}
+.q-nxt-btn a, .q-prv-btn a  {
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+}
+.q-nxt-btn:hover, .q-prv-btn:hover {
+    background: #000;
+}
+.Results {
+    width: 100%;
+    height: 90vh;
+    background-color: hsl(217, 48%, 68%);
+    position: relative;
+    padding-top: 5%; 
+}
+.p-result {
+    height: 80vh;
+    width: 65%;
+    background-color: #fff;
+    margin: 0 auto;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 0px 4px 16px 0px #00000026;
+    display: flex;
+    justify-content: space-around;
+}
+.result-msg {
+    width: 30%;
+    height: 20vh;
+    margin-top: 200px;
+}
+.score {
+    width: 45%;
+    height: 40vh;
+    margin-top: 130px;
+    text-align: center;
+}
+.result-msg h6 {
+    font-size: 40px;
+    color: #000;
+}
+.result-msg p {
+    font-size: 18px;
+    color: #000;
+    padding-top: 40px;
+}
+.score h4 {
+    font-size: 90px;
+    color: #000;
+    padding-top: 65px;
+    /* text-align: center; */
+}
+.score p {
+    font-size: 20px;
+    color: #000;
+}
